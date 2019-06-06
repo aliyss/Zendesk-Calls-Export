@@ -1,6 +1,10 @@
 # Zendesk-Calls-Export
 Exports the calls from BaseCRM / Zendesk Sell using the Zendesk Sell API and request.
 
+## Download
+
+- git clone https://github.com/Aliyss/Zendesk-Calls-Export.git
+
 ## Setup
 
 Go to server.js
