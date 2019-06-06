@@ -1,0 +1,16 @@
+{
+  "name": "zendesk-calls-export",
+  "version": "2.1.1",
+  "description": "Exports the calls from BaseCRM / Zendesk Sell using the Zendesk Sell API and request.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Aliyss Snow",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "request": "^2.88.0"
+  }
+}
