@@ -12,13 +12,13 @@ const ZendeskSell = axios.create({
 });
 
 let max = 400;
-let wait_time = 60000;
+let wait_time = 5000;
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 (async function fire() {
 	for (let x = 1; x <= max; x++) {
-		if (x % 20 === 0 || x === 1) {
+		if (x % 5 === 0 || x === 1) {
 			await delay(wait_time);
 		}
 		ZendeskSell.get(`/v2/calls?page=${x}`)
